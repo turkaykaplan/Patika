@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class VucutKitleEndeksi {
+public class VucutKitleIndeksi {
 
     public static void main(String[] args) {
         double formul;
