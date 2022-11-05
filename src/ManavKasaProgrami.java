@@ -29,7 +29,7 @@ public class ManavKasaProgrami {
         double miktarP = kiloPatlican*patlican;
 
         double toplam = miktarA+miktarE+miktarD+miktarM+miktarP;
-        System.out.println("Toplam Tutar: " +toplam " TL");
+        System.out.println("Toplam Tutar: " +toplam +" TL");
 
 
     }
