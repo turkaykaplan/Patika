@@ -2,118 +2,118 @@ import java.util.Scanner;
 
 public class BurcBulma {
     public static void main(String[] args) {
-        Scanner giris = new Scanner(System.in);
-        int ay, gun;
-        String burc = " ";
+        Scanner input = new Scanner(System.in);
+        int month, day;
+        String horoscope = " ";
         System.out.print("Doğduğunuz ay(1-12): ");
-        ay = giris.nextInt();
+        month = input.nextInt();
 
-        if(ay<1 || ay>12) {
+        if(month<1 || month>12) {
             System.out.println("Geçerli bir sayı(ay) girmediniz!");
         } else {
 
             System.out.print("Lütfen gün giriniz(1-31): ");
-            gun = giris.nextInt();
-            if (gun < 1 || gun > 31) {
+            day = input.nextInt();
+            if (day < 1 || day > 31) {
                 System.out.println("Geçerli bir sayı(gün) girmediniz! ");
             }else {
-            if (ay == 1) {
-                if (gun <= 19) {
-                    burc = " Oğlak";
+            if (month == 1) {
+                if (day <= 19) {
+                    horoscope = " Oğlak";
                 }
-                else if (gun > 19) {
-                    burc = " Kova";
-                }
-            }
-            if (ay == 2) {
-                if (gun <= 18) {
-                    burc = " Kova";
-                }
-                else if (gun > 18) {
-                    burc = " Balık";
+                else if (day > 19) {
+                    horoscope = " Kova";
                 }
             }
-            if (ay == 3) {
-                if (gun <= 19) {
-                    burc = " Balık";
+            if (month == 2) {
+                if (day <= 18) {
+                    horoscope = " Kova";
                 }
-                else if (gun > 19) {
-                    burc = "Koç";
-                }
-            }
-            if (ay == 4) {
-                if (gun <= 19) {
-                    burc = " Koç";
-                }
-                else if (gun > 19) {
-                    burc = " Boğa";
+                else if (day > 18) {
+                    horoscope = " Balık";
                 }
             }
-            if (ay == 5) {
-                if (gun <= 20) {
-                    burc = " Boğa";
+            if (month == 3) {
+                if (day <= 19) {
+                    horoscope = " Balık";
                 }
-                else if (gun > 20) {
-                    burc = " İkizler";
-                }
-            }
-            if (ay == 6) {
-                if (gun <= 21) {
-                    burc = " İkizler";
-                }
-                else if (gun > 21) {
-                    burc = " Yengeç";
+                else if (day > 19) {
+                    horoscope = "Koç";
                 }
             }
-            if (ay == 7) {
-                if (gun <= 22) {
-                    burc = " Yengeç";
+            if (month == 4) {
+                if (day <= 19) {
+                    horoscope = " Koç";
                 }
-                else if (gun > 22) {
-                    burc = " Aslan";
-                }
-            }
-            if (ay == 8) {
-                if (gun <= 22) {
-                    burc = " Aslan";
-                }
-                else if (gun > 22) {
-                    burc = " Başak";
+                else if (day > 19) {
+                    horoscope = " Boğa";
                 }
             }
-            if (ay == 9) {
-                if (gun <= 22) {
-                    burc = " Başak";
+            if (month == 5) {
+                if (day <= 20) {
+                    horoscope = " Boğa";
                 }
-                else if (gun > 22) {
-                    burc = " Terazi";
-                }
-            }
-            if (ay == 10) {
-                if (gun <= 22) {
-                    burc = " Terazi";
-                }
-                else if (gun > 22) {
-                    burc = " Akrep";
+                else if (day > 20) {
+                    horoscope = " İkizler";
                 }
             }
-            if (ay == 11) {
-                if (gun <= 21) {
-                    burc = " Akrep";
+            if (month == 6) {
+                if (day <= 21) {
+                    horoscope = " İkizler";
                 }
-                else if (gun > 21) {
-                    burc = " Yay";
+                else if (day > 21) {
+                    horoscope = " Yengeç";
                 }
             }
-            if (ay == 12) {
-                if (gun <= 21) {
-                    burc = " Yay";
+            if (month == 7) {
+                if (day <= 22) {
+                    horoscope = " Yengeç";
                 }
-                else if (gun > 21) {
-                    burc = " Oğlak";
+                else if (day > 22) {
+                    horoscope = " Aslan";
+                }
+            }
+            if (month == 8) {
+                if (day <= 22) {
+                    horoscope = " Aslan";
+                }
+                else if (day > 22) {
+                    horoscope = " Başak";
+                }
+            }
+            if (month == 9) {
+                if (day <= 22) {
+                    horoscope = " Başak";
+                }
+                else if (day > 22) {
+                    horoscope = " Terazi";
+                }
+            }
+            if (month == 10) {
+                if (day <= 22) {
+                    horoscope = " Terazi";
+                }
+                else if (day > 22) {
+                    horoscope = " Akrep";
+                }
+            }
+            if (month == 11) {
+                if (day <= 21) {
+                    horoscope = " Akrep";
+                }
+                else if (day > 21) {
+                    horoscope = " Yay";
+                }
+            }
+            if (month == 12) {
+                if (day <= 21) {
+                    horoscope = " Yay";
+                }
+                else if (day > 21) {
+                    horoscope = " Oğlak";
                 }
 
-            }System.out.println("Burcunuz:" +burc);
+            }System.out.println("Burcunuz:" +horoscope);
 
         }
         }
