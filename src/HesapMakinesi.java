@@ -5,36 +5,33 @@ public class HesapMakinesi {
 
         Scanner yazdir = new Scanner(System.in);
         System.out.print("İlk sayıyı girin: ");
-        int sayi = yazdir.nextInt();
+        int number = yazdir.nextInt();
         System.out.print("İkinci sayıyı girin: ");
-        int sayi2 = yazdir.nextInt();
+        int number2 = yazdir.nextInt();
 
         System.out.println("-----Seçin-----:");
         System.out.println(" 1-Toplama \n 2-Çıkarma \n 3-Çarpma \n 4-Bölme");
-        int secim = yazdir.nextInt();
+        int choice = yazdir.nextInt();
 
-        switch (secim){
+        switch (choice){
             case 1:
-                int sonuc = sayi+sayi2;
-                System.out.println("Sonuç: "+sonuc);
+                int result = number+number2;
+                System.out.println("Sonuç: "+result);
                 break;
             case 2:
-                int sonuc1 = sayi-sayi2;
-                System.out.println("Sonuç: "+sonuc1);
+                int result1 = number-number2;
+                System.out.println("Sonuç: "+result1);
                 break;
             case 3:
-                int sonuc2 = sayi*sayi2;
-                System.out.println("Sonuç: "+sonuc2);
+                int result2 = number*number2;
+                System.out.println("Sonuç: "+result2);
                 break;
             case 4:
-                int sonuc3 = sayi/sayi2;
-                System.out.println("Sonuç: "+sonuc3);
+                int result3 = number/number2;
+                System.out.println("Sonuç: "+result3);
                 break;
             default:
                 System.out.println("Geçersiz tuşlama yaptınız!");
         }
-
-
-
     }
 }
