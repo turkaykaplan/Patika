@@ -2,14 +2,14 @@ import java.util.Scanner;
 
 public class CinZodyak {
     public static void main(String[] args) {
-        Scanner yazdir = new Scanner(System.in);
-        int yil,ay;
+        Scanner input = new Scanner(System.in);
+        int year,month;
         System.out.println("Doğum yılınızı girin: ");
-        yil = yazdir.nextInt();
+        year = input.nextInt();
 
-        ay = yil % 12;
+        month = year % 12;
 
-        switch(ay){
+        switch(month){
             case 0:
                 System.out.println("Maymun");
                 break;
@@ -48,10 +48,5 @@ public class CinZodyak {
                 break;
             default:
         }
-
-
-
-
-
     }
 }
