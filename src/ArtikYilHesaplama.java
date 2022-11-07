@@ -1,6 +1,6 @@
 /* 
 -patika.dev
-# Java ile kullanıcının girdiği yılın artık olup olmadığını bulan programı yazınız. 
+-- Java ile kullanıcının girdiği yılın artık olup olmadığını bulan programı yazınız. 
 
 Artık Yıl Nasıl Hesaplanır?
 Genel bir kural olarak, artık yıllar 4 rakamının katı olan yıllardır:
