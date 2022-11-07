@@ -1,5 +1,5 @@
 /* 
--patika.dev
+-www.patika.dev
 -- Java ile kullanıcının girdiği yılın artık olup olmadığını bulan programı yazınız. 
 
 Artık Yıl Nasıl Hesaplanır?
