@@ -1,3 +1,8 @@
+/*
+-www.patika.dev
+--Java ile iki sayının EBOB ve EKOK değerlerini "While Döngüsü" kullanarak yazınız.
+*/
+
 import java.util.Scanner;
 
 public class EbobEkok {
