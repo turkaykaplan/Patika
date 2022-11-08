@@ -1,3 +1,9 @@
+/*
+- www.patika.dev
+--Java ile kombinasyon hesaplayan program yazınız.
+Kombinasyon formülü
+C(n,r) = n! / (r! * (n-r)!)
+*/
 import java.util.Scanner;
 
 public class Kombinasyon {
