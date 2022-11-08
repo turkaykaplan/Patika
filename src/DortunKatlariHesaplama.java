@@ -1,3 +1,8 @@
+/* - www.patika.dev
+-- Java döngüler ile tek bir sayı girilene kadar kullanıcıdan girişleri kabul eden ve 
+girilen değerlerden çift ve 4'ün katları olan sayıları toplayıp ekrana basan programı yazıyoruz.
+*/
+
 import java.util.Scanner;
 
 public class DortunKatlariHesaplama {
@@ -5,11 +10,11 @@ public class DortunKatlariHesaplama {
 
         int c;
         int total=0;
-        Scanner yazdir = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         do {
             System.out.print("Sayı girin: ");
-            c = yazdir.nextInt();
+            c = input.nextInt();
                 if(c%2==0 && c%4==0){
                     total += c;
                 }
