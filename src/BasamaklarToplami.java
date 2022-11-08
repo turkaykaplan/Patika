@@ -1,3 +1,6 @@
+/*
+- www.patika.dev
+-- Bir sayının basamak sayılarının toplamını hesaplayan program yazınız. */
 import java.util.Scanner;
 
 public class BasamaklarToplami {
