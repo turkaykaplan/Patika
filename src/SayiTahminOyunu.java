@@ -26,12 +26,12 @@ public class SayiTahminOyunu {
                 } else {
                     if (choice > number) {
                         System.out.println(choice + " sayısı, gizli sayıdan büyüktür.");
-                        System.out.println("Kalan Hakkınız: " + (5 - right));
+                        System.out.println("Kalan Hakkınız: " + (4 - right));
 
                     } else {
                         System.out.println(choice + " sayısı, gizli sayıdan küçüktür.");
 
-                        System.out.println("Kalan Hakkınız: " + (5 - right));
+                        System.out.println("Kalan Hakkınız: " + (4 - right));
                     }
                     wrong[right++] = choice;
 
