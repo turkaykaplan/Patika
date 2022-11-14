@@ -28,7 +28,8 @@ public class PalindromikKelime {
         String word = input.nextLine();
         System.out.print(isPalindrome(word) +"");
         System.out.println();
-        if(true)  System.out.print("Palindromik kelime.");
+        if(isPalindrome(word))  System.out.print("Palindromik kelime.");
+        else System.out.print("Palindromik kelime değil");
 
 }
 }
