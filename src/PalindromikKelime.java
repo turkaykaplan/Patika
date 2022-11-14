@@ -18,7 +18,6 @@ public class PalindromikKelime {
             j--;
         }
 
-        System.out.print("Palindromik kelime. -");
 
         return true;
     }
@@ -27,8 +26,9 @@ public class PalindromikKelime {
         Scanner input = new Scanner(System.in);
         System.out.print("Kelime girin: ");
         String word = input.nextLine();
+        System.out.print(isPalindrome(word) +"");
         System.out.println();
-        System.out.print(isPalindrome(word) +"-");
+        if(true)  System.out.print("Palindromik kelime.");
 
 }
 }
